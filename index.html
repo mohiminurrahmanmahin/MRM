@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MRM Travels</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <nav>
+
+            <div class="logo">
+                MRM Travels
+            </div>
+
+            <ul class="nav-links">
+
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+
+                <li>
+                    <a href="#destinations">Destinations</a>
+                </li>
+
+                <li>
+                    <a href="#signup-modal" class="signup-btn">
+                        Sign Up / Login
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+
+    <section class="home-section" id="home">
+
+        <h1>
+            Explore Beautiful Bangladesh
+        </h1>
+
+        <p>
+            Discover the most beautiful tourist places of Bangladesh.
+            Click Explore Details to know everything about each destination.
+        </p>
+
+    </section>
+
+
+
+    <main>
+
+        <section id="destinations">
+
+            <h2 class="section-title">
+                Famous Destinations
+            </h2>
+
+            <div class="destinations-grid">            
+                
+                
+                <!-- Cox's Bazar -->
+
+                <div class="place-card">
+
+                    <div class="place-img place-img-1"></div>
+
+                    <div class="place-info">
+
+                        <h3>Cox's Bazar</h3>
+
+                        <p>
+                            The world's longest natural sea beach with golden sand,
+                            blue water and beautiful sunset.
+                        </p>
+
+                        <a href="coxsbazar.html" class="explore-btn">
+                            Explore Details
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- Sylhet -->
+
+                <div class="place-card">
+
+                    <div class="place-img place-img-2"></div>
+
+                    <div class="place-info">
+
+                        <h3>Sylhet</h3>
+
+                        <p>
+                            Famous for tea gardens, waterfalls,
+                            Ratargul Swamp Forest and Jaflong.
+                        </p>
+
+                        <a href="sylhet.html" class="explore-btn">
+                            Explore Details
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- Sundarbans -->
+
+                <div class="place-card">
+
+                    <div class="place-img place-img-3"></div>
+
+                    <div class="place-info">
+
+                        <h3>Sundarbans</h3>
+
+                        <p>
+                            The largest mangrove forest in the world and
+                            home of the Royal Bengal Tiger.
+                        </p>
+
+                        <a href="sundarbans.html" class="explore-btn">
+                            Explore Details
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- Sajek -->
+
+                <div class="place-card">
+
+                    <div class="place-img place-img-4"></div>
+
+                    <div class="place-info">
+
+                        <h3>Sajek Valley</h3>
+
+                        <p>
+                            A beautiful valley surrounded by mountains,
+                            clouds and green scenery.
+                        </p>
+
+                        <a href="sajek.html" class="explore-btn">
+                            Explore Details
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- Sreemangal -->
+
+                <div class="place-card">
+
+                    <div class="place-img place-img-5"></div>
+
+                    <div class="place-info">
+
+                        <h3>Sreemangal</h3>
+
+                        <p>
+                            Known as the Tea Capital of Bangladesh with
+                            endless green tea gardens.
+                        </p>
+
+                        <a href="sreemangal.html" class="explore-btn">
+                            Explore Details
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- Saint Martin -->
+
+                <div class="place-card">
+
+                    <div class="place-img place-img-6"></div>
+
+                    <div class="place-info">
+
+                        <h3>Saint Martin</h3>
+
+                        <p>
+                            Bangladesh's only coral island with crystal
+                            clear sea and fresh seafood.
+                        </p>
+
+                        <a href="stmartin.html" class="explore-btn">
+                            Explore Details
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- Rangamati -->
+
+                <div class="place-card">
+
+                    <div class="place-img place-img-7"></div>
+
+                    <div class="place-info">
+
+                        <h3>Rangamati</h3>
+
+                        <p>
+                            Famous for Kaptai Lake,
+                            Hanging Bridge and beautiful hills.
+                        </p>
+
+                        <a href="rangamati.html" class="explore-btn">
+                            Explore Details
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+            </main>
+
+    <!-- Sign Up / Login Modal -->
+
+    <div id="signup-modal" class="modal-wrapper">
+
+        <div class="modal-card">
+
+            <a href="#" class="close-modal">&times;</a>
+
+            <input type="radio" id="tab-signup" name="tabs" class="radio-tab" checked>
+            <input type="radio" id="tab-login" name="tabs" class="radio-tab">
+
+            <div class="form-tabs">
+
+                <label for="tab-signup" class="tab-label label-signup">
+                    Sign Up
+                </label>
+
+                <label for="tab-login" class="tab-label label-login">
+                    Login
+                </label>
+
+            </div>
+
+            <!-- Sign Up Form -->
+
+            <div class="signup-form">
+
+                <form>
+
+                    <div class="form-group">
+
+                        <label>Full Name</label>
+
+                        <input type="text" placeholder="Enter your full name" required>
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label>Email</label>
+
+                        <input type="email" placeholder="Enter your email" required>
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label>Password</label>
+
+                        <input type="password" placeholder="Enter your password" required>
+
+                    </div>
+
+                    <button class="submit-btn">
+                        Create Account
+                    </button>
+
+                </form>
+
+            </div>
+
+            <!-- Login Form -->
+
+            <div class="login-form">
+
+                <form>
+
+                    <div class="form-group">
+
+                        <label>Email</label>
+
+                        <input type="email" placeholder="Enter your email" required>
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label>Password</label>
+
+                        <input type="password" placeholder="Enter your password" required>
+
+                    </div>
+
+                    <button class="submit-btn">
+                        Login
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- Footer -->
+
+    <footer>
+
+        <div class="footer-container">
+
+            <div class="footer-section">
+
+                <h3>MRM Travels</h3>
+
+                <p>
+                    Explore the beauty of Bangladesh with us.
+                </p>
+
+            </div>
+
+            <div class="footer-section">
+
+                <h3>Quick Links</h3>
+
+                <ul>
+
+                    <li><a href="#home">Home</a></li>
+
+                    <li><a href="#destinations">Destinations</a></li>
+
+                </ul>
+
+            </div>
+
+            <div class="footer-section">
+
+                <h3>Contact</h3>
+
+                <p>Email : info@mrmtravels.com</p>
+
+                <p>Phone : +880 123456789</p>
+
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+            © 2026 MRM Travels. All Rights Reserved.
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
